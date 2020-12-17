@@ -335,9 +335,10 @@ a {
 }
 
 .polar {
-  margin-top: 6em;
+  margin-top: 6em !important;
   padding: 2%;
-  bottom: 50%;
+  max-height: 20%;
+  margin-bottom: 10em !important;
 }
 
 .proj-name {
