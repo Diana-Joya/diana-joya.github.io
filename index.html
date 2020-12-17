@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Joya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Page -->
+    <div id="fullPage">
+        <div class="section landing">
+            <!-- The video -->
+            <div class="bg">
+                <video data-autoplay muted loop id="myVideo">
+                    <!-- Video by Free Creative Stuff from Pexels -->
+                    <source data-src="/media/bgvid.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="landing-items">
+                <div class="landing-header">
+                    <h1 class="title">Diana Joya</h1>
+                    <h2 class="subtitle">Software Engineer</h2>
+                </div>
+                <!-- Arrows Down -->
+                <h1 class="content"><a href="#projects-slides"><i class="fas fa-angle-double-down"></i></a></h1>
+            </div>
+            <!-- About Me Modal -->
+            <button><span class="about-me">About Me</span></button>
+            <div class="about-me-modal">
+                <div class="modal-text">
+                    <div class="content-box">
+                        <h1 class="modal-hello">Hello, </h1>
+                        <div class="modal-intro">
+                            <p> I'm <span id="keyword">Diana Joya</span> and I'm a <span id="keyword">Software Engineer</span>.</p>
+                            <p>I recently graduated from <span id="keyword">California State University, Fullerton</span> with a <span id="keyword">B.S. in Computer Science</span>.</p>
+                            <p>Most recently, I was a <span id="keyword">Frontend Engineering Intern</span> at <span id="keyword">FOX</span>.</p>
+                            <p>I'm passionate about <span id="keyword">interactive</span> and <span id="keyword">immersive media</span>, and <span id="keyword">technology in the entertainment industry</span> as well as </p>
+                            <p>a <span id="keyword">huge advocate</span> for <span id="keyword">diversity in tech</span>.</p>
+                            <p>I'm also part of <span id="keyword">Women in Animation</span>, <span id="keyword">Society of Women Engineers</span>, </p>
+                            <p>and the <span id="keyword">Society of Hispanic Professional Engineers</span>.</p>
+                            <p id="connect">Let's connect!</p>
+                        </div>
+                        <div class="links">
+                            <a href="https://github.com/Diana-Joya/"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/diana-joya/"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto: diana-joya@outlook.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <button class="btn-link"><a href="media/_Diana Joya_Resume.pdf">Resume</a></button>
+                        <button class="btn-link" id="go-slides"><a href="#projects-slides/1">Projects</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Slides -->
+        <div class="section projects-slides">
+            <nav class="navbar">
+                
+                <a class="navbar-brand mx-auto" href="#landing">Diana Joya</a>
+            </nav>
+            <div class="slide slide1">
+                <div class="slide-content">
+                    <div class="project">
+                        <h1 class="project-title">Restaurant Services App</h1>
+                        <div class="info">
+                            <img class="proj-img" src="/media/RAS.gif" alt="Image of Restaurant Services App screen">
+                            <div class="proj-text">
+                                <p class="about-project">The <span class="proj-name">Restaurant Services App</span> allows restaurants to host their own web application, as well as manage their own reservations, orders and menu systems. This application was built using Python and flask for the backend and html and css for the front end.</p>
+                                <a href="https://github.com/Diana-Joya/362-Assignment3and4/"><i class="fab fa-github"></i></a>
+                                <button class="btn-link"><a href="https://www.youtube.com/watch?v=JyN5BF2xR48&feature=youtu.be">Watch the Demo!</a></button>
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- <a href="#projects-slides/1"><i class="fas fa-angle-right arrow-right"></i></a> -->
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slide-content">
+                    <!-- <a href="#projects-slides/0"><i class="fas fa-angle-left arrow-left"></i></a> -->
+                    <div class="project">
+                        <h1 class="project-title">Lost In Sauce</h1>
+                        <div class="info">
+                            <img class="proj-img" src="/media/LIS.gif" alt="Image of Lost In Sauce screen">
+                            <div class="proj-text">
+                                <p class="about-project">The <span class="proj-name">Lost in Sauce</span> website allows users to rate ranch at different restaurants, create their own user account, and gain points for ranch rating!</p>
+                                <a href="https://github.com/TeamBestRanch/Lost-In-Sauce/"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>  
+                    </div>  
+                    <!-- <a href="#projects-slides/2"><i class="fas fa-angle-right arrow-right"></i></a> -->
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <!-- <a href="#projects-slides/1"><i class="fas fa-angle-left arrow-left"></i></a> -->
+                    <div class="project">
+                        <h1 class="project-title">Polar</h1>
+                        <div class="info">
+                            <img class="proj-img polar" src="/media/Polar.gif" alt="Image of Restaurant Services App screen">
+                            <div class="proj-text">
+                                <p class="about-project"><span class="proj-name">Polar</span> is a facial expression recognition app that allows the user to interact with an animated AI character based on the user's facial expressions!</p>
+                                <a href="https://github.com/Diana-Joya/Polar/"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer fp-auto-height">
+            <i class="far fa-copyright"></i> Diana Joya | 2020</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>   
+    <script>
+        new fullpage('#fullPage', {
+            autoscrolling: true,
+            // navigation: true,
+            anchors: ["landing", "projects-slides"],
+            // navigationTooltips: ['Home', 'Projects'],
+            // showActiveTooltip: true,
+            scrollingSpeed: 1500,
+            controlArrows: false,
+            slidesNavigation: true,
+            verticalCentered: false
+        })
+
+    </script>
+    <script src="modal.js"></script>
+</body>
+</html>
